@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #d6d6cc;
+    line-height: 1.5;
+}
+
+ .banner {
+    height: 450px;
+    width: 1905px;
+}
+
+h1 {
+    background-color: rgb(0, 50, 78); 
+    color: #d6d6cc; 
+    font-size: 50px; 
+    text-align: center;
+    margin: auto; 
+    margin-bottom: 15px; 
+    padding: 10px; 
+    max-width: 5000px; 
+    margin-top: -7px;
+}
+
+h3{
+    margin: 10px;
+}
+
+
+.titulo-card{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 111px; 
+}
+
+footer{
+    background-color: rgb(0, 50, 78); 
+    color: #d6d6cc; 
+    font-size: 30px; 
+    text-align: center;
+    margin: auto; 
+    margin-bottom: 30px; 
+    padding: 10px; 
+    max-width: 1200px; 
+    border-radius: 100px;
+    border: 5px solid rgb(0, 73, 116);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px; 
+}
+.capa {
+    width: 550px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.capa:hover {
+    transform: scale(1.05)
+}
+
+.titulo-anuncio{
+    background-color: rgb(0, 50, 78); 
+    color: #d6d6cc; 
+    font-size: 50px; 
+    text-align: center;
+    margin: auto; 
+    margin-bottom: 15px; 
+    padding: 10px; 
+    max-width: 5000px; 
+    
+}
+
+table{
+    background-color: rgb(0, 73, 116); 
+    color: #d6d6cc; 
+    font-size: 20px; 
+    text-align: center;
+    margin: auto; 
+    margin-bottom: 15px; 
+    padding: 10px; 
+    max-width: 50000px; 
+}
+
+.foto{
+    height: 400px;
+    width: 600px;
+}
+
+.anuncios {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 400px;
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.anuncio {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.preco {
+    color: green;
+    font-size: 18px;
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 40px;                    
+    width: 880px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(0, 73, 116);
+    color: #d6d6cc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+form p{
+    margin-bottom: 10px;
+}
+
+nav {
+    text-align: center;
+    background-color:#d6d6cc;
+    font-size: 20px; 
+    margin: auto;
+    margin-bottom: 30px; 
+    padding: 10px; 
+    max-width: 150px; 
+    border-radius: 20px;
+    border: 5px solid rgb(0, 50, 78);
+} 
