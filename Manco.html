@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -9,50 +8,71 @@
 </head>
 
 <body>
-
     <h1 class="titulo-anuncio">Bem-vindo à categoria CLASSIC</h1>
 
-    <div class="container-geral">
+    <div class="anuncios">
 
-        <div class="anuncios">
-
-            <div class="card" onclick="mostrar(0)">
-                <img src="manco1.png">
-                <p class="anuncio">Triciclo 50cc</p>
-                <p class="preco">R$1.899</p>
-            </div>
-
-            <div class="card" onclick="mostrar(1)">
-                <img src="manco2.png">
-                <p class="anuncio">Mini B</p>
-                <p class="preco">R$3.599</p>
-            </div>
-
-            <div class="card" onclick="mostrar(2)">
-                <img src="manco3.png">
-                <p class="anuncio">Kombixinha</p>
-                <p class="preco">R$7.999</p>
-            </div>
-
-            <div class="card" onclick="mostrar(3)">
-                <img src="manco4.png">
-                <p class="anuncio">Sabor Chevette</p>
-                <p class="preco">R$4.899</p>
-            </div>
-
+        <div class="card">
+            <img src="manco1.png">
+            <p class="anuncio">Triciclo 50cc</p>
+            <p class="preco">R$1.899</p>
         </div>
 
-        <div class="detalhes">
-            <img id="img-detalhe" src="" alt="">
-            <h2 id="nome">Selecione um veículo</h2>
-            <p id="preco-detalhe">---</p>
-            <p id="descricao">Clique em um card para ver os detalhes.</p>
+        <div class="card">
+            <img src="manco2.png">
+            <p class="anuncio">Mini B</p>
+            <p class="preco">R$3.599</p>
+        </div>
+
+        <div class="card">
+            <img src="manco3.png">
+            <p class="anuncio">Kombixinha</p>
+            <p class="preco">R$7.999</p>
+        </div>
+
+        <div class="card">
+            <img src="manco4.png">
+            <p class="anuncio">Sabor Chevette</p>
+            <p class="preco">R$4.899</p>
         </div>
 
     </div>
 
-    <!-- IMPORTANTE: JS EXTERNO -->
-    <script src="script.js"></script>
+    <div>
+    <form class="form">
+
+    <div class="contato">
+    <form class="form-contato">
+
+        <h2>Fale conosco</h2>
+        <p>Preencha os dados:</p>
+
+        <p>Nome Completo</p>
+        <input type="text" placeholder="Seu nome completo">
+
+        <input placeholder="Seu Telefone">
+        <br><br>
+
+        <p>Modelo</p>
+        <select>
+            <option value="">Selecione</option>
+            <option>Triciclo 50cc</option>
+            <option>Mini B</option>
+            <option>Kombixinha</option>
+            <option>Sabor chevette</option>
+        </select>
+
+    </form>
+</div>
+
+<br><br>
+<nav>
+    <a href="index.html">Menu</a>
+</nav>
+<br><br>
+
+<footer> Pix na conta, garantia que aguenta mais de 10 metros de emoção (ou preocupação).</footer>
 
 </body>
+
 </html>
